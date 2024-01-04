@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Weather App</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="nav__wrapper">
+      <nav class="fit__section">
+        <div class="logo__div">
+          <i class="bx bxl-soundcloud logo"></i>
+          <h1>Openweather App</h1>
+        </div>
+
+        <div class="github__wrapper">
+          <i class="bx bxl-github github__logo"></i>
+          <a href="https://github.com/PremsagarChakrapani/openweather-api" target="_blank">Repo link</a>
+        </div>
+      </nav>
+    </div>
+
+    <section class="hero__section">
+      <div class="hero__div fit__section">
+        <h1 class="big__text">
+          Wanna know how <span class="orange__text__gradient">HOT</span> it is
+          <span class="blue__text__gradient">today?</span>
+        </h1>
+      </div>
+
+      <form id="form">
+        <input
+          type="text"
+          id="search"
+          placeholder="Search By City"
+          autocomplete="off"
+        />
+
+        <button type="submit" class="submit__btn">
+          <h2 class="submit__btn__content">
+            <span class="submit__text"></span
+            ><i class="bx bx-search search__icon"></i>
+          </h2>
+        </button>
+      </form>
+      <main id="main"></main>
+    </section>
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>
